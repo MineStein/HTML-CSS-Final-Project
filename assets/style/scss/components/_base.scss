@@ -1,0 +1,49 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  font-family: $default-font-family;
+  margin: 0;
+  padding: 0;
+  background-color: $baby-brown;
+}
+
+hr {
+  border: none;
+  color: $brown;
+  background-color: darken(grey, 5%);
+  height: 1px;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  background-color: $dark-brown;
+  color: white;
+  padding: 10px;
+  height: 110px;
+}
+
+.content {
+  background-color: $light-brown;
+  color: white;
+  padding: 40px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.footer {
+  background-color: $brown;
+  color: white;
+  padding: 5px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.heading {
+  font: 50px 'Cookie', Helvetica, sans-serif;
+}
