@@ -15,13 +15,13 @@ hr {
 
 .header {
   background-color: #3f1010;
-  color: white;
+  color: #FFF;
   padding: 10px;
   height: 110px; }
 
 .content {
   background-color: #912525;
-  color: white;
+  color: #FFF;
   margin: 10px;
   border-radius: 5px; }
   .content .content-header {
@@ -36,7 +36,7 @@ hr {
 
 .footer {
   background-color: #541515;
-  color: white;
+  color: #FFF;
   padding: 5px;
   bottom: 0;
   left: 0;
@@ -76,12 +76,12 @@ hr {
         -o-transition: color 1s; }
 
 table {
-  border: 0.5px solid white;
+  border: 0.5px solid #FFF;
   border-collapse: collapse; }
 
 th, td {
   padding: 20px 50px;
-  color: white;
+  color: #FFF;
   border: 0 none; }
 
 tr:hover {

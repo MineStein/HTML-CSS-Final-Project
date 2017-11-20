@@ -11,7 +11,7 @@ body {
 hr {
   border: none;
   color: $brown;
-  background-color: darken(grey, 5%);
+  background-color: darken(#808080, 5%);
   height: 1px;
 }
 
@@ -21,14 +21,14 @@ hr {
 
 .header {
   background-color: $dark-brown;
-  color: white;
+  color: #FFF;
   padding: 10px;
   height: 110px;
 }
 
 .content {
   background-color: $light-brown;
-  color: white;
+  color: #FFF;
   margin: 10px;
   border-radius: $rounding;
 
@@ -50,7 +50,7 @@ hr {
 
 .footer {
   background-color: $brown;
-  color: white;
+  color: #FFF;
   padding: 5px;
   bottom: 0;
   left: 0;
