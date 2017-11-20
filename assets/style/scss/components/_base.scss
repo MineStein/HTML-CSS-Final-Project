@@ -29,9 +29,23 @@ hr {
 .content {
   background-color: $light-brown;
   color: white;
-  padding: 40px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: $rounding;
+
+  .content-header {
+    padding: 10px;
+    margin: 0;
+    background-color: darken($light-brown, 5%);
+    border-radius: $rounding $rounding 0 0;
+
+    * {
+      margin-left: 20px;
+    }
+  }
+
+  .content-body {
+    padding: 20px;
+  }
 }
 
 .footer {

@@ -9,3 +9,8 @@ $baby-brown: rgba(#deb887, .7);
 $light-brown: darken(brown, 5%);
 $brown: darken($light-brown, 15%);
 $dark-brown: darken($brown, 5%);
+
+// Util
+
+$rounding: 5px;
+

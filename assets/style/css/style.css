@@ -22,9 +22,17 @@ hr {
 .content {
   background-color: #912525;
   color: white;
-  padding: 40px;
   margin: 10px;
-  border-radius: 15px; }
+  border-radius: 5px; }
+  .content .content-header {
+    padding: 10px;
+    margin: 0;
+    background-color: #7c2020;
+    border-radius: 5px 5px 0 0; }
+    .content .content-header * {
+      margin-left: 20px; }
+  .content .content-body {
+    padding: 20px; }
 
 .footer {
   background-color: #541515;
@@ -66,5 +74,17 @@ hr {
         -webkit-transition: color 1s;
         -moz-transition: color 1s;
         -o-transition: color 1s; }
+
+table {
+  border: 0.5px solid white;
+  border-collapse: collapse; }
+
+th, td {
+  padding: 20px 50px;
+  color: white;
+  border: 0 none; }
+
+tr:hover {
+  background-color: #541515; }
 
 /*# sourceMappingURL=style.css.map */
