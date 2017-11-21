@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'mixins';
+
+ul.list-group {
+  padding: 10px;
+  list-style-type: none;
+
+  li {
+    display: block;
+    border: 1px solid #FFF;
+    padding: 10px;
+  }
+
+  li:hover {
+    background-color: darken($baby-brown, 25%);
+  }
+}

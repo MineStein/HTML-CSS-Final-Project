@@ -48,6 +48,28 @@ hr {
   }
 }
 
+.secondary-content {
+  background-color: darken($baby-brown, 20%);
+  color: #FFF;
+  margin: 10px;
+  border-radius: $rounding;
+
+  .content-header {
+    padding: 10px;
+    margin: 0;
+    background-color: darken($baby-brown, 25%);
+    border-radius: $rounding $rounding 0 0;
+
+    * {
+      margin-left: 20px;
+    }
+  }
+
+  .content-body {
+    padding: 20px;
+  }
+}
+
 .footer {
   background-color: $brown;
   color: #FFF;

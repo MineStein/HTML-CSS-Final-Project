@@ -34,6 +34,21 @@ hr {
   .content .content-body {
     padding: 20px; }
 
+.secondary-content {
+  background-color: rgba(200, 137, 55, 0.7);
+  color: #FFF;
+  margin: 10px;
+  border-radius: 5px; }
+  .secondary-content .content-header {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(180, 123, 50, 0.7);
+    border-radius: 5px 5px 0 0; }
+    .secondary-content .content-header * {
+      margin-left: 20px; }
+  .secondary-content .content-body {
+    padding: 20px; }
+
 .footer {
   background-color: #541515;
   color: #FFF;
@@ -50,7 +65,6 @@ hr {
   width: 100%;
   background-color: #541515;
   color: white;
-  width: 100%;
   overflow: hidden; }
   .nav .active {
     background-color: #4c1313; }
@@ -77,14 +91,30 @@ hr {
 
 table {
   border: 0.5px solid #FFF;
-  border-collapse: collapse; }
+  border-collapse: separate; }
 
 th, td {
   padding: 20px 50px;
   color: #FFF;
-  border: 0 none; }
+  border: 1px #8b0000 solid; }
+
+tr.no-highlight:hover {
+  background-color: inherit; }
 
 tr:hover {
-  background-color: #541515; }
+  background-color: #7c2020; }
+
+tr.bold-row td {
+  font-weight: bold; }
+
+ul.list-group {
+  padding: 10px;
+  list-style-type: none; }
+  ul.list-group li {
+    display: block;
+    border: 1px solid #FFF;
+    padding: 10px; }
+  ul.list-group li:hover {
+    background-color: rgba(180, 123, 50, 0.7); }
 
 /*# sourceMappingURL=style.css.map */

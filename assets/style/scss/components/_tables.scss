@@ -2,15 +2,23 @@
 
 table {
   border: 0.5px solid #FFF;
-  border-collapse: collapse;
+  border-collapse: separate;
 }
 
 th, td {
   padding: 20px 50px;
   color: #FFF;
-  border: 0 none;
+  border: 1px #8b0000 solid;
+}
+
+tr.no-highlight:hover {
+  background-color: inherit;
 }
 
 tr:hover {
-  background-color: $brown;
+  background-color: darken($light-brown, 5%);
+}
+
+tr.bold-row td {
+  font-weight: bold;
 }
