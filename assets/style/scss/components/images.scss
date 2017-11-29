@@ -1,0 +1,10 @@
+@import 'variables';
+
+.img-rounded {
+  border-radius: $rounding;
+}
+
+.img-small {
+  width: 50%;
+  height: 50%;
+}
